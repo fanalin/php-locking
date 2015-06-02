@@ -1,0 +1,24 @@
+{
+    "name": "fanalin/php-locking",
+    "description": "Locks for process synchronization with PHP",
+    "keywords": ["lock", "php"],
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "fanalin\\Spinlock\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "fanalin\\Spinlock\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=5.4",
+        "ext-memcached": "~2.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    }
+}
