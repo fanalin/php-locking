@@ -19,7 +19,7 @@ interface SpinlockInterface
     public function acquire();
 
     /**
-     * release spinlock
+     * release spinlock.
      *
      * @throws SpinlockException if spinlock could not be released
      */
